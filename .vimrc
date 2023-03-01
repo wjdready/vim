@@ -10,7 +10,12 @@ set cursorline
 set wildmenu   
 set mouse=a   
 
-inoremap jk <Esc>
+inoremap jj <Esc>
+
+map <Space> <leader>
+map <leader>n :bnext<cr>
+map <leader>p :bprevious<cr>
+map <leader>d :bdelete<cr>
 
 """"""""""""""theme""""""""""""""""""""
 " colorscheme molokai 
